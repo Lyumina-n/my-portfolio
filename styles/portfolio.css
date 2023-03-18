@@ -97,3 +97,19 @@ line-height: 128px;
         text-align: center;
     }
 }
+.contact-call-action{
+    background: var(--secondary-color);
+    padding: 116px 100px;
+    border-radius: 20px;
+}
+.contact-call-action p{
+    font-size: 18px;
+    line-height: 27px;
+}
+.contact-call-action h1{
+    font-size: 48px;
+    line-height: 1.5;
+}
+.talk-button{
+    justify-content: center;
+}
