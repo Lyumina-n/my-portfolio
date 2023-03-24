@@ -93,7 +93,33 @@ line-height: 128px;
 .project-description{
     padding: 120px 60px;
 }
-@media(max-width:960px){
+.logo{
+    max-height: 40px;
+}
+nav{
+    padding: 20px 120px;
+}
+nav ul{
+     margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 24px;
+}
+nav a{
+text-decoration: none;
+color: rgba(39, 33, 66, 0.7);
+transition: all 100ms ease-in-out;
+}
+nav a:hover, nav li.active a{
+    text-decoration: none;
+    color: var(--branding-color);
+}
+
+@media(max-width:760px){
     .hero h1{
         font-size: 44px;
     }
@@ -121,6 +147,16 @@ line-height: 128px;
     .project-description{
         padding: 0;
         text-align: center;
+    }
+    nav a{
+        font-size: 12px;
+    }
+    .d-flex{
+flex-wrap: wrap;
+justify-content: center;
+    }
+    ul{
+        margin-top: 10px;
     }
 }
 .contact-call-action{
